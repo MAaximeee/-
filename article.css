@@ -1,0 +1,55 @@
+/* 1rem = 16px = Taille standard de police du document */
+
+body {
+    background: linear-gradient(darksalmon, orange);
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    background-color: #f8d5b9;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.main-title {
+    background-color: #fef0e6;
+    color: darkred;
+    padding: 6px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+nav a {
+    color: darkred;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 16px;
+}
+
+nav {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    background-color: #fef0e6;
+    padding: 4px;
+}
+
+footer {
+    background-color:#fef0e6;
+    text-align: center;
+    padding: 4px 0;
+}
+
+footer a {
+    color: blue
+}
